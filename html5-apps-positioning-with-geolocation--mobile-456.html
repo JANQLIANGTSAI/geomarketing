@@ -50,7 +50,7 @@
                      "Time: " + new Date(position.timestamp);
           jQuery("#info").html(text);
 
-          var image_url = "http://maps.google.com/maps/api/staticmap?sensor=false&key=AIzaSyBxoi_YaInS-Ghv3X-XfkphQdmDGazCmqo&center=" + position.coords.latitude + ',' + position.coords.longitude +
+          var image_url = "http://maps.google.com/maps/api/staticmap?sensor=false&key=#############&center=" + position.coords.latitude + ',' + position.coords.longitude +
                           "&zoom=14&size=300x400&markers=color:blue|label:S|" + position.coords.latitude + ',' + position.coords.longitude;
 
           jQuery("#map").remove();
